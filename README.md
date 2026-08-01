@@ -272,11 +272,11 @@ Books_Data_Analysis.ipynb
 
 **Nitin Singh**
 
-📧 Email: your-email@example.com
+📧 Email: nsr2k06@example.com
 
 🔗 GitHub: https://github.com/nsr-dev-in
 
-🔗 LinkedIn: https://linkedin.com/in/your-profile
+🔗 LinkedIn: https://linkedin.com/in/nsr2k06
 
 ---
 
