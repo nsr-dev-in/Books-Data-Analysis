@@ -1,7 +1,7 @@
 # 📚 Books Data Analysis
 
 <p align="center">
-  <img src="images/banner.png" alt="Books Data Analysis Banner" width="100%">
+  <img src="images/banner.png" width="100%">
 </p>
 
 <p align="center">
@@ -15,60 +15,68 @@
 
 </p>
 
+<p align="center">
+An End-to-End Exploratory Data Analysis (EDA) project that uncovers meaningful insights from a Books dataset using Python and data visualization.
+</p>
+
 ---
 
 # 📖 Project Overview
 
-This project performs **Exploratory Data Analysis (EDA)** on a Books dataset using Python. The primary objective is to clean the dataset, analyze important trends, and generate meaningful insights related to books, authors, publishers, ratings, languages, sales, and publication years.
+Books contain valuable information about reader preferences, publishing trends, author performance, and sales patterns. This project performs a complete **Exploratory Data Analysis (EDA)** on a Books dataset to clean the data, analyze important features, and generate business insights using Python.
 
-The project demonstrates the complete EDA workflow followed by data analysts, including data preprocessing, statistical analysis, and visualization.
+The project follows a real-world data analysis workflow, including data preprocessing, visualization, and insight generation.
 
 ---
 
 # 🎯 Project Objectives
 
 - Import and inspect the dataset
-- Perform data cleaning
+- Clean and preprocess the data
 - Handle missing values
 - Remove invalid records
 - Check duplicate entries
-- Analyze publishing trends
-- Study book genres
-- Analyze author performance
+- Analyze publishing year trends
+- Study genre distribution
+- Evaluate author performance
 - Explore publisher revenue
-- Understand language distribution
-- Visualize sales trends
-- Generate actionable insights
+- Analyze language distribution
+- Investigate sales trends
+- Generate business insights through visualizations
 
 ---
 
-# 📂 Dataset Information
+# 📂 Dataset Description
 
-The dataset contains information about books, including:
+The dataset contains information about books, authors, ratings, sales, and publishers.
 
-- Book Name
-- Author
-- Publishing Year
-- Publisher
-- Genre
-- Language
-- Average Rating
-- Rating Count
-- Gross Sales
-- Sale Price
-- Publisher Revenue
-- Units Sold
+### Features
+
+| Column | Description |
+|---------|-------------|
+| Book Name | Name of the book |
+| Author | Author of the book |
+| Publishing Year | Year of publication |
+| Publisher | Publishing company |
+| Genre | Book genre |
+| Language | Language of publication |
+| Average Rating | Average user rating |
+| Ratings Count | Number of ratings |
+| Gross Sales | Total sales generated |
+| Sale Price | Selling price |
+| Publisher Revenue | Revenue earned by publisher |
+| Units Sold | Number of copies sold |
 
 ---
 
 # 🛠️ Tech Stack
 
 - Python
-- Jupyter Notebook
 - Pandas
 - NumPy
 - Matplotlib
 - Seaborn
+- Jupyter Notebook
 
 ---
 
@@ -102,72 +110,89 @@ Business Insights
 
 The following preprocessing steps were performed:
 
-✔ Loaded the dataset
+✅ Imported the dataset
 
-✔ Inspected dataset structure
+✅ Inspected the dataset structure
 
-✔ Generated descriptive statistics
+✅ Generated descriptive statistics
 
-✔ Removed invalid publishing years
+✅ Removed invalid publishing years
 
-✔ Checked missing values
+✅ Checked missing values
 
-✔ Removed rows with missing book names
+✅ Removed records with missing book names
 
-✔ Checked duplicate records
+✅ Checked duplicate records
 
-✔ Examined unique values across columns
+✅ Examined unique values in each column
 
 ---
 
-# 📊 Project Visualizations
+# 📈 Exploratory Data Analysis
+
+The following analyses were performed:
+
+- 📅 Publishing Year Distribution
+- 📚 Genre Distribution
+- ⭐ Average Rating by Author
+- 📊 Book Rating Count by Genre
+- 💰 Sale Price vs Units Sold
+- 🌍 Language Distribution
+- 🏢 Publisher Revenue Analysis
+- ⭐ Author Rating Category Analysis
+- 📖 Language Frequency Analysis
+- 📈 Average Rating vs Rating Count
+- 💵 Gross Sales by Author
+- 📦 Units Sold Over Time
+
+---
+
+# 📸 Project Visualizations
+
+## 🖼️ Project Banner
+
+<p align="center">
+<img src="images/banner.png" width="100%">
+</p>
+
+---
 
 ## 📅 Publishing Year Distribution
 
-Shows the distribution of books published over different years.
+Shows how book publications have changed over time.
 
 <p align="center">
-  <img src="images/publishing_year_distribution.png" width="850">
+<img src="images/publishing_year_distribution.png" width="900">
 </p>
 
 ---
 
 ## 📚 Genre Distribution
 
-Illustrates the number of books available in each genre.
+Displays the number of books available in each genre.
 
 <p align="center">
-  <img src="images/genre_distribution.png" width="850">
+<img src="images/genre_distribution.png" width="900">
 </p>
 
 ---
 
-## ✍️ Average Rating by Author
+## 📊 Book Rating Count by Genre
 
-Displays the authors with the highest average ratings.
+Compares rating counts across different genres.
 
 <p align="center">
-  <img src="images/average_rating_by_author.png" width="850">
+<img src="images/book_rating_count_by_genre.png" width="900">
 </p>
 
 ---
 
-## 📦 Book Rating Count by Genre
+## 💲 Sale Price vs Units Sold
 
-Compares rating counts across different genres using a box plot.
-
-<p align="center">
-  <img src="images/book_rating_count_by_genre.png" width="850">
-</p>
-
----
-
-## 💰 Sale Price vs Units Sold
-
-Analyzes the relationship between sale price and units sold.
+Explores the relationship between sale price and units sold.
 
 <p align="center">
-  <img src="images/sale_price_vs_units_sold.png" width="850">
+<img src="images/sale_price_vs_units_sold.png" width="900">
 </p>
 
 ---
@@ -177,78 +202,50 @@ Analyzes the relationship between sale price and units sold.
 Shows the percentage distribution of books by language.
 
 <p align="center">
-  <img src="images/language_distribution.png" width="850">
+<img src="images/language_distribution.png" width="900">
 </p>
 
 ---
 
-## 🏢 Publisher Revenue Analysis
+## ⭐ Average Rating vs Rating Count
 
-Displays publishers generating the highest revenue.
+Analyzes whether highly rated books also receive more ratings.
 
 <p align="center">
-  <img src="images/publisher_revenue_analysis.png" width="850">
+<img src="images/average_rating_vs_rating_count.png" width="900">
 </p>
 
 ---
 
-## ⭐ Author Rating Category Analysis
+## 💰 Gross Sales by Author
 
-Compares average rating counts across author rating categories.
-
-<p align="center">
-  <img src="images/author_rating_category.png" width="850">
-</p>
-
----
-
-## 🌐 Language Frequency Analysis
-
-Shows the frequency of books available in each language.
+Highlights authors with the highest gross sales.
 
 <p align="center">
-  <img src="images/language_frequency.png" width="850">
-</p>
-
----
-
-## 📈 Average Rating vs Rating Count
-
-Explores the relationship between average rating and rating count.
-
-<p align="center">
-  <img src="images/average_rating_vs_rating_count.png" width="850">
-</p>
-
----
-
-## 💵 Gross Sales by Author
-
-Highlights the top authors based on gross sales.
-
-<p align="center">
-  <img src="images/gross_sales_by_author.png" width="850">
+<img src="images/gross_sales_by_author.png" width="900">
 </p>
 
 ---
 
 ## 📈 Units Sold Over Time
 
-Visualizes the trend of units sold across publishing years.
+Shows how book sales changed across publishing years.
 
 <p align="center">
-  <img src="images/units_sold_over_time.png" width="850">
+<img src="images/units_sold_over_time.png" width="900">
 </p>
+
+---
 
 # 🔍 Key Insights
 
-- Most books were published after the 1990s.
-- Fiction dominates the dataset compared to other genres.
-- English is the most common publication language.
-- Certain authors consistently achieve higher average ratings.
+- Most books in the dataset were published after the 1990s.
+- Fiction is the most represented genre.
+- English is the dominant publication language.
+- Some authors consistently receive higher average ratings.
 - Publisher revenue varies significantly across publishers.
-- Higher ratings do not always correspond to a higher number of ratings.
-- Sales trends show noticeable growth in recent publication years.
+- Books with higher ratings do not always have more ratings.
+- Publishing activity and units sold have generally increased over time.
 
 ---
 
@@ -264,15 +261,18 @@ Books-Data-Analysis
 │   └── Books_Data_Analysis.ipynb
 │
 ├── images
+│   ├── banner.png
 │   ├── publishing_year_distribution.png
 │   ├── genre_distribution.png
+│   ├── book_rating_count_by_genre.png
+│   ├── sale_price_vs_units_sold.png
 │   ├── language_distribution.png
+│   ├── average_rating_vs_rating_count.png
 │   ├── gross_sales_by_author.png
-│   ├── publisher_revenue.png
-│   └── average_rating_vs_rating_count.png
+│   └── units_sold_over_time.png
 │
 ├── reports
-│   └── Project_Report.pdf
+│   └── Books_Data_Analysis_Project.pdf
 │
 ├── requirements.txt
 ├── LICENSE
@@ -281,21 +281,27 @@ Books-Data-Analysis
 
 ---
 
-# 🚀 How to Run
+# 🚀 Getting Started
 
-### Clone Repository
+## Clone the Repository
 
 ```bash
 git clone https://github.com/nsr-dev-in/Books-Data-Analysis.git
 ```
 
-### Install Dependencies
+## Navigate to the Project
+
+```bash
+cd Books-Data-Analysis
+```
+
+## Install Required Libraries
 
 ```bash
 pip install -r requirements.txt
 ```
 
-### Launch Jupyter Notebook
+## Launch Jupyter Notebook
 
 ```bash
 jupyter notebook
@@ -313,32 +319,45 @@ Books_Data_Analysis.ipynb
 
 - Interactive Power BI Dashboard
 - Book Recommendation System
-- Machine Learning Models
+- Machine Learning for Rating Prediction
 - Sales Forecasting
-- Interactive Streamlit Application
+- Streamlit Web Application
+- Interactive Dashboard with Plotly
+
+---
+
+# 📄 Project Report
+
+A detailed project report explaining the data cleaning process, EDA workflow, visualizations, and key insights is included in the repository.
 
 ---
 
 # 👨‍💻 Author
 
-**Nitin Singh**
+## Nitin Singh
 
-📧 Email: nsr2k06@example.com
+📌 Aspiring Data Analyst
+
+💻 Python | SQL | Power BI | Excel | Data Visualization
 
 🔗 GitHub: https://github.com/nsr-dev-in
 
-🔗 LinkedIn: https://linkedin.com/in/nsr2k06
+🔗 LinkedIn: https://www.linkedin.com/in/YOUR-LINKEDIN/
+
+---
+
+# 🤝 Connect With Me
+
+If you found this project useful or have suggestions for improvement, feel free to connect or reach out. Feedback is always appreciated!
 
 ---
 
 # ⭐ Support
 
-If you found this project useful, consider giving it a **⭐ Star** on GitHub.
-
-It helps support future open-source projects and encourages continuous learning.
+If you like this project, don't forget to **Star ⭐ the repository** and share it with others.
 
 ---
 
-## 📜 License
+# 📜 License
 
 This project is licensed under the **MIT License**.
