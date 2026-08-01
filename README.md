@@ -120,74 +120,125 @@ The following preprocessing steps were performed:
 
 ---
 
-# 📈 Exploratory Data Analysis
-
-The following analyses were performed:
+# 📊 Project Visualizations
 
 ## 📅 Publishing Year Distribution
 
-- Distribution of books by publishing year
-- Identified publication trends over time
+Shows the distribution of books published over different years.
+
+<p align="center">
+  <img src="images/publishing_year_distribution.png" width="850">
+</p>
 
 ---
 
 ## 📚 Genre Distribution
 
-- Number of books in each genre
-- Most popular book categories
+Illustrates the number of books available in each genre.
+
+<p align="center">
+  <img src="images/genre_distribution.png" width="850">
+</p>
 
 ---
 
-## ✍️ Author Analysis
+## ✍️ Average Rating by Author
 
-- Average rating by author
-- Gross sales by author
-- Highest-performing authors
+Displays the authors with the highest average ratings.
 
----
-
-## ⭐ Rating Analysis
-
-- Average Rating vs Rating Count
-- Book Rating Count by Genre
-- Variance of Ratings
+<p align="center">
+  <img src="images/average_rating_by_author.png" width="850">
+</p>
 
 ---
 
-## 🌍 Language Analysis
+## 📦 Book Rating Count by Genre
 
-- Language distribution
-- Frequency of books in each language
+Compares rating counts across different genres using a box plot.
 
----
-
-## 🏢 Publisher Analysis
-
-- Publisher Revenue
-- Highest revenue-generating publishers
+<p align="center">
+  <img src="images/book_rating_count_by_genre.png" width="850">
+</p>
 
 ---
 
-## 💰 Sales Analysis
+## 💰 Sale Price vs Units Sold
 
-- Sale Price vs Units Sold
-- Units Sold over Publishing Years
-- Gross Sales Analysis
+Analyzes the relationship between sale price and units sold.
+
+<p align="center">
+  <img src="images/sale_price_vs_units_sold.png" width="850">
+</p>
+
+---
+
+## 🌍 Language Distribution
+
+Shows the percentage distribution of books by language.
+
+<p align="center">
+  <img src="images/language_distribution.png" width="850">
+</p>
 
 ---
 
-# 📉 Visualizations
+## 🏢 Publisher Revenue Analysis
 
-The project includes multiple visualizations such as:
+Displays publishers generating the highest revenue.
 
-- Histogram
-- Bar Chart
-- Pie Chart
-- Box Plot
-- Scatter Plot
-- Line Chart
+<p align="center">
+  <img src="images/publisher_revenue_analysis.png" width="850">
+</p>
 
 ---
+
+## ⭐ Author Rating Category Analysis
+
+Compares average rating counts across author rating categories.
+
+<p align="center">
+  <img src="images/author_rating_category.png" width="850">
+</p>
+
+---
+
+## 🌐 Language Frequency Analysis
+
+Shows the frequency of books available in each language.
+
+<p align="center">
+  <img src="images/language_frequency.png" width="850">
+</p>
+
+---
+
+## 📈 Average Rating vs Rating Count
+
+Explores the relationship between average rating and rating count.
+
+<p align="center">
+  <img src="images/average_rating_vs_rating_count.png" width="850">
+</p>
+
+---
+
+## 💵 Gross Sales by Author
+
+Highlights the top authors based on gross sales.
+
+<p align="center">
+  <img src="images/gross_sales_by_author.png" width="850">
+</p>
+
+---
+
+## 📈 Units Sold Over Time
+
+Visualizes the trend of units sold across publishing years.
+
+<p align="center">
+  <img src="images/units_sold_over_time.png" width="850">
+</p>
 
 # 🔍 Key Insights
 
